@@ -1,0 +1,20 @@
+.nav{
+    &-lista{
+        list-style: none;
+        display: flex;
+        &_item{
+            flex-grow: 1;
+            &-link{
+                display: block;
+                padding: 5px;
+                color: black;
+                text-align: center;
+                background-color: lightblue;
+                &:hover {
+                    background-color: blue;
+                    color: white;
+                }
+            }
+        }
+    }
+}
