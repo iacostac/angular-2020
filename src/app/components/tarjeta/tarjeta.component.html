@@ -4,10 +4,12 @@
     <article class="tarjeta-info">
         <header class="tarjeta-info_header">
             <p>{{ categoria }}</p>
-            <h2>TITULO</h2>
+            <h2>{{ titulo }}</h2>
         </header>
-        <p class="tarjeta-info_subtitulo">SUBTITULO</p>
-        <span class="tarjeta-info_flexible">FLEX</span>
+        <p class="tarjeta-info_subtitulo">{{ subtitulo }}</p>
+        <span class="tarjeta-info_flexible"
+        *ngIf="flex">
+        Vuelo Flexible</span>
         <p class="tarjeta-info_precio">PRECIO</p>
     </article>
 </div>

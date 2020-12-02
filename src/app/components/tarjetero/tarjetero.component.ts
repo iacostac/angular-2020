@@ -9,7 +9,12 @@ export class TarjeteroComponent implements OnInit {
 
   constructor() { }
 
-    categoria ="hoteles";
+    categoria = 'hoteles';
+
+    titulo = 'el titulo descriptivo';
+
+    subtitulo = 'el subitulo descriptivo';
+
   ngOnInit(): void {
   }
 

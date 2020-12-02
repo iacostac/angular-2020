@@ -11,7 +11,9 @@ export class TarjetaComponent implements OnInit {
 
 
 @Input() categoria?: string;
-
+@Input() titulo?: string;
+@Input() subtitulo?: string;
+@Input()  flex = false;
   ngOnInit(): void {
   }
 
