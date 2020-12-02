@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { TarjetaComponent } from './components/tarjeta/tarjeta.component';
+import { TarjeteroComponent } from './components/tarjetero/tarjetero.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    TarjetaComponent
+    TarjetaComponent,
+    TarjeteroComponent
   ],
   imports: [
     BrowserModule,
