@@ -13,7 +13,7 @@ export class TarjeteroComponent implements OnInit {
 
     titulo = 'el titulo descriptivo';
 
-    subtitulo = 'el subitulo descriptivo';
+    flex = true;
 
   ngOnInit(): void {
   }
