@@ -1,0 +1,38 @@
+[
+    
+{
+    "titulo": "Viaje a Bariloche",
+    "subtitulo": "visita la cerveceria",
+    "categoria": "vuelos",
+    "flex" : true,
+    "precio": 123,
+    "imagen": "assets/bariloche.jpg"
+},
+{
+    "titulo": "Viaje a Cancun",
+    "subtitulo": "visita la playa",
+    "categoria": "vuelos",
+    "flex" : true,
+    "precio": 1223,
+    "imagen": "assets/cancun.jfif"
+},
+
+{
+    "titulo": "Viaje a Corrientes",
+    "subtitulo": "Realice pesca deportiva",
+    "categoria": "vuelos",
+    "flex" : true,
+    "precio": 1223,
+    "imagen": "assets/corrientes.jpg"
+},
+
+{
+    "titulo": "Viaje a Patagonia",
+    "subtitulo": "Visite Puerto Madryn",
+    "categoria": "vuelos",
+    "flex" : true,
+    "precio": 1223,
+    "imagen": "assets/patafonia.jfif"
+}
+
+]
